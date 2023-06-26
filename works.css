@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    margin: 0 auto;
+    font-family: 'heebo';
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.container{
+    width: 858px;
+    margin: auto;
+}
+
+
+/*----------------------------header---------------------------*/
+header{
+    width: 100%;
+    height:70px;
+    background-color: white;
+    margin-bottom: 60px;
+}
+
+.header-right{
+   float: right;
+   margin-right: 30px;
+}
+
+.header-right a{
+    padding: 10px 10px;
+    margin: 20px 10px;
+    line-height: 60px;
+    color:black;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.header-right a:hover{
+   color: #ff9f43;
+}
+
+.fa{
+    margin-right: 5px;
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+}
+
+
+/*-------------------------------------section--------------------------------------------*/
+
+/* .list-works{
+   
+}  */
+
+.list-works h1{
+    color: var(--dark-color, #21243D);
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+.list-works h2{
+    color: var(--dark-color, #21243D);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.detail-works{
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 50px;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.detail-right{
+    padding-left: 20px;
+}
+
+.left{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 16px;
+    background: #142850;
+    width: 62px;
+    height: 25px;
+    text-align: center;
+    float: left;
+}
+
+.right{
+    color: var(--light, #8695A4);
+    font-size: 20px;
+    margin-left: 80px;
+}
+
+
+
+
+/*--------------------------------------footer--------------------------------------------*/
+
+footer{
+    height: 182px;
+    width: 100%;
+    margin-top: 150px;
+}
+footer p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 21px;
+}
+.footer-container{
+    text-align: center;
+}
+
+.footer-container img{
+   width: 30px;
+}
+
+.footer-container img:hover{
+    opacity: 0.7;
+}
+
+.fb{
+   margin-right: 40px;
+}
+
+.ig{
+    margin-right: 30px;
+}
+
+.twitter{
+    margin-right: 20px;
+}
+
+.copyright{
+    padding-right: 2px;
+}
